@@ -1,3 +1,267 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-inner {
+	background: #fff;
+	background: rgba(255, 255, 255, .0);
+	background-image: none;
+    background-repeat: no-repeat;
+    filter: none;
+    min-height: 100px;
+	line-height: 80px;
+	z-index: 300;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}
+
+.content_width {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+.top_nav img {
+	margin-top: 6px;
+}
+
+.top_nav_items {
+	width: 100%px;
+	text-align: right;
+}
+
+.top_nav_items li {
+	list-style: none;
+	margin-top: 35px;
+	font-size: 16px;
+	margin-right: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	display: inline;
+	color: #555;
+}
+
+.top_nav_items a:hover {
+	color: #3498d9 !important;
+}
+
+
+.hero_text {
+	text-align: center;
+}
+
+.hero_text h1 {
+	margin-top: 30px;
+	font-size: 4.2em;
+	color: #555;
+	font-weight: 100;
+	line-height: 1.17em;
+}
+
+.hero_text p {
+	margin-top: -10px;
+	font-size: 2.4em;
+	color: #555;
+	font-weight: 200;
+	line-height: 1.17em;
+}
+
+.hero_image {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px; 
+}
+
+.hero_image p {
+	font-size: 1.8em;
+	color: #b2daeb;
+	line-height: 1.17em;
+	margin-top: 15px;
+	font-weight: 200;
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero_cta {
+    margin: 0 auto;
+    margin-top: 35px;
+	text-align: center;
+	width: 300px;
+	font-size: 1.8em;
+	margin-bottom: 50px;
+	
+}
+
+.hero_cta h3 {
+    font-size: 24px;
+	color: #b2daeb;
+	line-height: 32px;
+	margin-top: 15px;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+	color: #3498d9;
+	color: #3498d9 !important;
+}
+
+
+.hero_cta a {
+ color: #3498d9 !important;
+ text-decoration: none;
+}
+
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }
+
+.first_divider {
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.about_us {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.about_us {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.about_us h2 {
+	color: #555;
+	font-weight: 100;
+	line-height: 1.17em;
+	font-size: 2.5em;
+}
+
+.about_us_desc {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.about_us_desc p {
+	color: #666;
+	font-weight: 100;
+	line-height: 1.8em;
+	font-size: 1.3em;
+}
+
+.work_section {
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+	font-family: 'Roboto', sans-serif;
+}
+.work_section h2 {
+	color: #555;
+	font-weight: 100;
+	line-height: 1.17em;
+	font-size: 2.5em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.work_section_text {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.work_section p {
+	color: #666;
+	font-weight: 100;
+	line-height: 1.8em;
+	font-size: 1.3em;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.work_section img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.bid_build {
+	display: inline;
+}
+
+.on_track {
+    padding-top: 40px;
+	width: 280px;
+	margin-right: 10px;
+	margin-top: 40px;
+	height: 400px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+}
+
+.on-track img {
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.on_track h2 {
+	color: #555;
+	font-weight: 100;
+	line-height: 1.17em;
+	font-size: 2.5em;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+}
+
+.on_track p {
+	color: #666;
+	font-weight: 100;
+	line-height: 1.8em;
+	font-size: 1.3em;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.on_track_left {
+	margin-left: 0px;
+	margin-right: 40px;
+}
+
+.on_track_middle {
+	margin-right: 40px;
+}
+
+.work_section_text a {
+	text-decoration: none;
+	color: #3498d9 !important;
+}
+
+.footer {
+	background: #f9f9f9;
+	border-top: 1px solid #ececec;
+	padding: 40px 0px 20px;
+	text-align: center;
+	min-height: 80px;
+}
+
+.footer_text {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.footer_text p {
+	font-size: 12px;
+	color: #aeaeae;
+	font-weight: 400;
+}
