@@ -1,0 +1,1 @@
+Helping out a friend and a great contractor - Camillo Ponce. Making use of a basic rails app with the Flat UI kit.
